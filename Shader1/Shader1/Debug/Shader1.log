@@ -1,0 +1,14 @@
+﻿La génération a démarré 29/05/2014 10:04:17.
+     1>Projet "C:\Users\Anis\Documents\GitHub\Shaders\Shader1\Shader1\Shader1.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /T fx_2_0 /Fo "C:\Users\Anis\Documents\GitHub\Shaders\Shader1\Debug\plasma.cso" /Od /Zi plasma.fx 
+     1>FXC : warning X4717: Effects deprecated for D3DCompiler_47
+         
+         compilation object save succeeded; see C:\Users\Anis\Documents\GitHub\Shaders\Shader1\Debug\plasma.cso
+       Link:
+         Shader1.vcxproj -> C:\Users\Anis\Documents\GitHub\Shaders\Shader1\Debug\Shader1.exe
+     1>Génération du projet "C:\Users\Anis\Documents\GitHub\Shaders\Shader1\Shader1\Shader1.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.05
