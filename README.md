@@ -1,4 +1,4 @@
 Shaders
 =======
 
-Some hlsl shaders examples
+Some Dx9 hlsl shaders examples 
