@@ -31,10 +31,10 @@ float4 plasma(float2 TextureCoordinate : TEXCOORD0) : COLOR0
 	float3 col = float3(sin(PI*v), sin(PI*v + 4 * PI / 3), cos(PI*v));
 
 	//to show plasma effect
-	//float4 color = float4(col, 1);
+	float4 color = float4(col, 1);
 
 	//to show refraction effect
-	float4 color = tex2D(TextureSampler, TextureCoordinate + normalize(col*.5).xy*.015);
+	//float4 color = tex2D(TextureSampler, TextureCoordinate + normalize(col*.5).xy*.015);
 
 	return color;
 }
